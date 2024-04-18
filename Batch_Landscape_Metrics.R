@@ -11,7 +11,7 @@
 # ---- 1: Load Landscapes & Verify Integrity ----
 
   # Point to your landscape directory
-  ls_folder = file.choose()
+  ls_folder = choose.dir()
   
   # Get list of files in the directory
   landscapes = list.files(path = ls_folder,
